@@ -47,7 +47,7 @@ public class Gui {
         frmBuscadorDeExtensiones.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frmBuscadorDeExtensiones.getContentPane().setLayout((LayoutManager) null);
 
-        JLabel lblNewLabel = new JLabel("Búsqueda de contactos por nombre,extensión o correo");
+        JLabel lblNewLabel = new JLabel("Búsqueda de contactos por nombre, extensión o correo");
         lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 16));
         lblNewLabel.setBounds(10, 11, 402, 19);
         frmBuscadorDeExtensiones.getContentPane().add(lblNewLabel, BorderLayout.NORTH);
