@@ -55,11 +55,13 @@ public class Gui {
     private void initialize() {
         frmBuscadorDeExtensiones = new JFrame();
         frmBuscadorDeExtensiones.setResizable(false);
-        frmBuscadorDeExtensiones.setType(Window.Type.UTILITY);
+        frmBuscadorDeExtensiones.setType(Window.Type.NORMAL);
         frmBuscadorDeExtensiones.setTitle("Buscador de extensiones");
         frmBuscadorDeExtensiones.setBounds(100, 100, 450, 300);
         frmBuscadorDeExtensiones.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frmBuscadorDeExtensiones.getContentPane().setLayout((LayoutManager) null);
+        ImageIcon icon = new ImageIcon("\\\\\\\\\\\\\\\\server01\\\\\\\\Cobendai\\\\\\\\It\\\\\\\\icono.png");
+        frmBuscadorDeExtensiones.setIconImage(icon.getImage());
 
         // Cargar la imagen de fondo
         ImageIcon backgroundImage = new ImageIcon("\\\\\\\\server01\\\\Cobendai\\\\It\\\\logo.png");
